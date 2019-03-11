@@ -1,0 +1,22 @@
+PODS:
+  - SYZMediator (0.1.0):
+    - SYZMediator/source (= 0.1.0)
+    - SYZUIBasekit
+  - SYZMediator/source (0.1.0):
+    - SYZUIBasekit
+  - SYZUIBasekit (0.1.5)
+
+DEPENDENCIES:
+  - SYZMediator (from `../`)
+
+EXTERNAL SOURCES:
+  SYZMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SYZMediator: 2c1ac540bcc9e4fcee11470d92dbb5be0a7a0b60
+  SYZUIBasekit: 6dcac91cfccc81f9377a3f8fa08de55da069e754
+
+PODFILE CHECKSUM: 1cfff4a97affb7908addfcf0f4956b0bef54e816
+
+COCOAPODS: 1.4.0

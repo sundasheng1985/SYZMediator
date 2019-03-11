@@ -1,0 +1,1272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0330F547E9D03645E68F80F453D61DA4 /* SYZRouterModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F7E53C3F30529BD360BEEDE089A12 /* SYZRouterModuleManager.m */; };
+		062367715494136FBC41033C67D47106 /* SYZWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CEE9EE363566E85CC097A1579B28FA /* SYZWeakObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0702A8ABE98728D1F90F2A53408BCE9A /* Pods-SYZMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5E1AC26B2E9EC067D978D1FFC8199C /* Pods-SYZMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A17B127438AB58F6435627C083EA82 /* SYZRouterPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1BD69AF3483A5644A6FDA220667845 /* SYZRouterPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D822B7EE9AD50205D137E5267F9E085 /* SYZRouterModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4707FDB9F4A0CC534EEDA7DDB44A388 /* SYZRouterModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D34729B783BD104F1D371D731B63F6 /* NSMutableAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0F67E469B711EC80BCB7C11BF7B75B /* NSMutableAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1497D1F2904792E41D2740FEEBCAA8F7 /* NSDate+SYZTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E4E1DA0C87C927897E7FB5F9374EF8 /* NSDate+SYZTimeStamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15ACC425F39E1CFEB598F7D122CA873B /* NSFileManager+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89F86C256129006252FA1FD811838 /* NSFileManager+SYZFoundationAdd.m */; };
+		168E497C94305602DF3BFDB3EC06B63E /* NSException+SYZException.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD31BC4B4C2170ABDCD5C6B6C50C59 /* NSException+SYZException.m */; };
+		172487B1E3C901546A71EA6BCF5C673A /* NSSet+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D23DE5832C1BCC1723CF8A5125F1A /* NSSet+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D170F47AD4197906BA8FF3907653AE /* SYZRouterPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB504EBD65FC0C03AD1C925181AA1D1 /* SYZRouterPackage.m */; };
+		2B29E784DCD1A23B7F87C9A8411135C0 /* NSData+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8303D04AA52D4431EB639C780237CF /* NSData+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BCE9AD291D83E7FF6D9C1F1AFFCDE7 /* SYZDateEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = AF617E33F9F43F03FD78B36B8AA194D3 /* SYZDateEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F73F2723DB0344015135C6C08B7FCD /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6856121B68C3D3A2DF5D40CA0DA933 /* NSHTTPCookieStorage+SYZFoundationAdd.m */; };
+		37438E4FD6343AD670FBAB6D7F432A92 /* NSNumber+SYZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AAE7B90ACA0E7D5A95CC4045805499 /* NSNumber+SYZNumber.m */; };
+		385DEBC3AADB90A5EA9C6CBD57926623 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CE854AB8CFB166B17418F8BD11B630D1 /* NSMutableArray+SYZMutableArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39AC31BE09367409BB361E89D700EA7B /* SYZUIBasekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 601877AFAF5CC9FA012099A1B9074D51 /* SYZUIBasekit-dummy.m */; };
+		3CFEA9F04047F687EA08222E323FD205 /* NSDateFormatter+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4C24B068A470F275BA8ED395C6E2C7 /* NSDateFormatter+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E083B4106B9CCD0F171964397B2DAEA /* NSFileManager+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D080B258A52D9B83E337D937AE4870A6 /* NSFileManager+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41621917633297A8884C915CCDDA4901 /* NSAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4A9DA3C7FACBFDC355AC2AD0C39522 /* NSAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463BDEB3439538D0177909996AD167FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */; };
+		479D9BF00A15289F648FCE992A72714B /* UIApplication+SYZFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8B5C3CF4E79A265CADAFA3D6315433 /* UIApplication+SYZFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D2E534C99EEDC264F978F697B69238 /* NSMutableAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 945EB98BF88D6917EFAD160CD4764A41 /* NSMutableAttributedString+SYZAdditon.m */; };
+		48260F2B3D9F7695503C4B063D36455F /* SYZViewControllerTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B196158D315E269BBCF76BB5863B0570 /* SYZViewControllerTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4988806B15581D46BC0590E2E9DE0392 /* NSString+SYZString.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC3A0FF20BEB7B83202FE0AFAD8270C /* NSString+SYZString.m */; };
+		4CD3E1A66E2D5323C3B331A94821D2B6 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 33169B5C07A4E79314529E7CBF309D82 /* NSJSONSerialization+SYZUIBaseKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E04BD4B8DF26355E579B2EFC29A76B9 /* NSScanner+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C844422207FD22786EEC8AC950758D2 /* NSScanner+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3235D4FADAD30D6A2EC6A1D451942A /* UIDevice+SYZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B0CDCF92E82626BD159B8EE7F6A2A /* UIDevice+SYZDevice.m */; };
+		62D0C1CF66453EF3F09E5F3BFBC69C4B /* NSDate+SYZDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD87C5B36212598C5C7A011AEE7BD7 /* NSDate+SYZDate.m */; };
+		67D61231E61272A9EC8A698703B257D8 /* SYZRouterContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FA918A2EA48902E2CA4FF449D79B9 /* SYZRouterContext.m */; };
+		6A08EC6FA7F2B1C524E6B79411FF6274 /* SYZMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CE07AD987FAD11A53A52182001F5A /* SYZMediator-dummy.m */; };
+		6A19FB3403F68D48DBF47148F392638F /* NSException+SYZException.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A2F1E16016F7DEB1459C300F2FF79A /* NSException+SYZException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E31DA13A074787B20E99DE6C37E749 /* SYZRouterBaseEntranceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7BBCBA6D4AAD578B215C4B09A96B3 /* SYZRouterBaseEntranceModule.m */; };
+		7EAFFD6BA0DAC39878389B4C0EADE8EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */; };
+		85F3CCBC95B713C7E172F8E304945E8C /* Pods-SYZMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875C6521F753D705B59106618E349B5 /* Pods-SYZMediator_Example-dummy.m */; };
+		8A41295DED105300AC75F37298E12805 /* NSObject+SYZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193063EE45E4791A8656AF524B1A5F1 /* NSObject+SYZObject.m */; };
+		9464A36FBB5692ABBDBF4BC45F8B1D11 /* NSBundle+SYZBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = A642BAB9548136584F535C66031A7B85 /* NSBundle+SYZBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948E2021680996516686C09842930BD6 /* SYZUIBasekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968C352E966EC7281982B66C6B1C2EF /* SYZUIBasekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		962534D0AA1DB6E25B2BDA24B9C4D159 /* NSDictionary+SYZDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1D3D5A2C2CA112A89ABBAA95EE5DDA /* NSDictionary+SYZDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		962E9AC5B50F78C85543C0221D23B664 /* NSObject+SYZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B5069FB0B2AAA0C9C72371FB287F0202 /* NSObject+SYZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963005E5098B05D17E2C8E6C6E616301 /* NSDateFormatter+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC9801D2E22FAC65A62B2D72CF3BFE /* NSDateFormatter+SYZFoundationAdd.m */; };
+		98B0B5F10DF42D1BD152C071D1126DBF /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C8E3C818B80ED4100BFB6F07552437 /* NSHTTPCookieStorage+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D66952CC0F512911CA89AB82045E94 /* SYZRouterEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892CEF6B831C695E21351E81B14B7AA /* SYZRouterEvents.m */; };
+		9BB1A3E14E7C9A271D7BE43D77B9F30F /* SYZRouterBaseEntranceModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A994442FD151184439F8FFA324B764 /* SYZRouterBaseEntranceModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3274569DC0E2CE15389D0622B25CC5 /* SYZMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA3DA06352ED3C17C85EA521E536D4F /* SYZMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F92961E3510DCA5BB9DAE556BB4D40F /* NSAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AF571D20F89561B8DB73F5F9A4304 /* NSAttributedString+SYZAdditon.m */; };
+		A61A8AB65CADE6226E543B40FCEB46C4 /* NSSet+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E83DAA6EF4A47479A8BA526CBABA9D9D /* NSSet+SYZFoundationAdd.m */; };
+		AA1BDA29BA6B8B9C9723D6F4A8B23313 /* SYZMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4C41E5485934E934526CBE97EF369 /* SYZMediator.m */; };
+		AAA2512F70FCCBF10F3A479357CF7999 /* SYZMediatorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F9B434E189446321CB2B5B1BD6186B /* SYZMediatorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBCB4C8DB99779C61F5FF57F4A11CF8 /* SYZWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90DABFA330A94B7F3C7516504E2F5C /* SYZWeakObject.m */; };
+		B35744A2BD7F578938BF98874F9E67B3 /* NSTimer+SYZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C00A1C1019527FF9D55DFF76321523 /* NSTimer+SYZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7521DA5AB7FE3A501D4F92FAC387C9E /* SYZTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1144661F950D250F0605537FD8DF5 /* SYZTimerProxy.m */; };
+		B8EEF53BE0D277255BC51329710A19F0 /* NSScanner+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A69EADA12498899CF314E5C01650793B /* NSScanner+SYZFoundationAdd.m */; };
+		C178C14850ABD4CA8DB1875C26FF8720 /* NSDate+SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC552F1C9C61E0E5BF333355D6327833 /* NSDate+SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1EFD6A6092995A9780BAE1BCA3D2B98 /* SYZTimerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D43FBD1C6F980F008973C5D3BD30B /* SYZTimerProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60A247182B5962852F9208ED6C31370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */; };
+		C680BD8322EFD5E37FDD900B1B62EC6D /* NSURL+SYZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CADFC3E9D52F65F926EF021AAE070F /* NSURL+SYZURL.m */; };
+		C7616462044DF35FD1D3231A4C8C84AC /* SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C2EFB971AB36E6BDA297AB2217B1C5 /* SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B6974B9A9422C3459E3A45F0A03085 /* SYZUIBasekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BED29FAD6921CEDA1032EDC50AF7D3 /* SYZUIBasekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E75DF9924F5894B25CCE63B231D148 /* SYZFoundationShorthandMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 112C595B245AF2D2208EB1C644E1D3EE /* SYZFoundationShorthandMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9AF2BC7F69F3CA267E64ADA2E0573B /* NSArray+SYZArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2DD7E60A6E45460FEEAAE734DA0CD8 /* NSArray+SYZArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8CF5467A6814E1F83ABDFB981E3139 /* NSTimer+SYZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB9A2CD020A77BEF46FB3636E1645E /* NSTimer+SYZTimer.m */; };
+		D0441994CC789E5E886735B8D6EF726D /* UIApplication+SYZFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 018550D51C5EED31E483C89448FC9F49 /* UIApplication+SYZFoundation.m */; };
+		D18DDB8E80810089ADF9F9658DEDB4C7 /* NSBundle+SYZBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12DB5C2D85910BAF8DC53C22BA755 /* NSBundle+SYZBundle.m */; };
+		D81EC26A85F5A72B48524C4106D0801C /* Pods-SYZMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1F8A080E649946BADAA838AF9D7221 /* Pods-SYZMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96673A1FCD4F38F95D0D55FAE415050 /* UIDevice+SYZDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B87147A13AD16C8E7D436A02F16DDDEB /* UIDevice+SYZDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2945084F9E8E7CA2EAB930F8B02407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */; };
+		DAA0A98962CCC4AEDB8B28B6980AA0BF /* ISYZMediatorIntercepter.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AFF59840801BB0B754F3EAB7B614F5 /* ISYZMediatorIntercepter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA53F3C7E5394FAF10C038CCCF18C3F /* NSString+SYZString.h in Headers */ = {isa = PBXBuildFile; fileRef = 929207C1C129D26D28711C82550FF85C /* NSString+SYZString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCA15B8E971935CD8A99E80E19B7621 /* NSURL+SYZURL.h in Headers */ = {isa = PBXBuildFile; fileRef = A2672B144099804A2397087645B9B24A /* NSURL+SYZURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47D8AC0CD144D3C54FF4640F3AF959D /* SYZFoundationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FA7ADA9356CBD51C74BD1B0CA65196 /* SYZFoundationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E497244D54764D2C319C014FCBDCABD7 /* NSNumber+SYZNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A4B1BFF8BE7782A0CAC45FC5015C02 /* NSNumber+SYZNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A9E553525E6F5F4D7F29FEFC1B7DBC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 477FC63135AC25F5A85892CE13B4E3A7 /* NSMutableArray+SYZMutableArrayAdd.m */; };
+		E7915241A54B0A58E0B566AF98CF92BA /* SYZRouterConditionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 693F10D47FEE1A8D16C8E90267D52F2B /* SYZRouterConditionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA33723C68C5CED697D632EEA97922C /* NSDate+SYZTimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D5A2410B4DF728698F68BB50ECC65D /* NSDate+SYZTimeStamp.m */; };
+		EAAD22FFB6D3539999761C6B21BE8D20 /* NSData+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8777F72177323CD088CA329EF023FD /* NSData+SYZFoundationAdd.m */; };
+		EFE4B554E06E370EB79A414392EBF2D7 /* SYZMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB551F7525A79B14679F8B7457E2EE7 /* SYZMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28912A38CF72258CFA44A6D3D06D322 /* NSArray+SYZArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F4BE42962BB469795B929E07F55D8 /* NSArray+SYZArrayAdd.m */; };
+		F46D7777F8ADE0A4DF5A9B9F0014DEB7 /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBBC33177798B79517DC71FE6932357 /* NSJSONSerialization+SYZUIBaseKitAdd.m */; };
+		F4ED13D279E548C6701DFFC6163EF5AE /* SYZUIBasekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA86DEF23C9A51ED9DEC2EF6D7581777 /* SYZUIBasekit.framework */; };
+		F6E1946C194C7ABE8F07BAF6E46E9397 /* SYZRouterConditionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B00698593F3325F93790AA5AC1349294 /* SYZRouterConditionBuilder.m */; };
+		F738FC90F803AE399C8D8893B20BB0C4 /* SYZRouterContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C223A507F862B4C8044E8AC94751F4FA /* SYZRouterContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F76623D8BD90EC46181DDD1AD585A354 /* SYZRouterEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = FF196C35707E48789292FA5277D313A9 /* SYZRouterEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAA711345414F91CAC951A471F5F6E8 /* NSDictionary+SYZDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3CC336C07ECF828ED4F1EDB5ABC8 /* NSDictionary+SYZDictionary.m */; };
+		FBCC58128D4817D20236D9622BA55171 /* Pods-SYZMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDB3689C00F1C4717B8AB136966134 /* Pods-SYZMediator_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2D42941224B4F6733E7F636B050AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842C81E7F2DD6F45C3D9E5643F4C2DE3;
+			remoteInfo = SYZUIBasekit;
+		};
+		113C5EE506D5BCB62E5BC79116C433ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54C751364C1E041368F16277BCC90F1;
+			remoteInfo = SYZMediator;
+		};
+		C7FE9E5BA0AECDB94AA9BA4C78636850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842C81E7F2DD6F45C3D9E5643F4C2DE3;
+			remoteInfo = SYZUIBasekit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0126EA9CA5B041A12E4AC96C6ADEE062 /* SYZMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZMediator.xcconfig; sourceTree = "<group>"; };
+		018550D51C5EED31E483C89448FC9F49 /* UIApplication+SYZFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SYZFoundation.m"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.m"; sourceTree = "<group>"; };
+		03C8E3C818B80ED4100BFB6F07552437 /* NSHTTPCookieStorage+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		0C10CB2C8E9DB399EFCC96E6AE7D7BCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C595B245AF2D2208EB1C644E1D3EE /* SYZFoundationShorthandMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationShorthandMarcos.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationShorthandMarcos.h; sourceTree = "<group>"; };
+		1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		17134C72D204B2BAD0862089E077D7C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1765EDBDF12FF1ED01161DBABF5F04FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875C6521F753D705B59106618E349B5 /* Pods-SYZMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZMediator_Example-dummy.m"; sourceTree = "<group>"; };
+		1892CEF6B831C695E21351E81B14B7AA /* SYZRouterEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterEvents.m; sourceTree = "<group>"; };
+		18DDB3689C00F1C4717B8AB136966134 /* Pods-SYZMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		1968C352E966EC7281982B66C6B1C2EF /* SYZUIBasekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-umbrella.h"; sourceTree = "<group>"; };
+		1A4C24B068A470F275BA8ED395C6E2C7 /* NSDateFormatter+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		1AA89F86C256129006252FA1FD811838 /* NSFileManager+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		1CF55FBBF2733B435E19B4EC7BDEB227 /* Pods-SYZMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		1F4D6ACD313D6228FA67F526204B6F3A /* SYZMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYZMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		270E1DFD291D7903D92CCDCE28F80A25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		27BED29FAD6921CEDA1032EDC50AF7D3 /* SYZUIBasekit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIBasekit.h; path = SYZUIBasekit/Classes/SYZUIBasekit.h; sourceTree = "<group>"; };
+		2E8FA918A2EA48902E2CA4FF449D79B9 /* SYZRouterContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterContext.m; sourceTree = "<group>"; };
+		30A4B1BFF8BE7782A0CAC45FC5015C02 /* NSNumber+SYZNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SYZNumber.h"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.h"; sourceTree = "<group>"; };
+		33169B5C07A4E79314529E7CBF309D82 /* NSJSONSerialization+SYZUIBaseKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+SYZUIBaseKitAdd.h"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.h"; sourceTree = "<group>"; };
+		366CFD481625A2091D53894D7FB544E5 /* SYZUIBasekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZUIBasekit.modulemap; sourceTree = "<group>"; };
+		38AFF59840801BB0B754F3EAB7B614F5 /* ISYZMediatorIntercepter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISYZMediatorIntercepter.h; sourceTree = "<group>"; };
+		3AB86372AEBD5F0546657AA967C23507 /* Pods-SYZMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F547FBD131707A0BEDA888D1E311C29 /* Pods-SYZMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		477FC63135AC25F5A85892CE13B4E3A7 /* NSMutableArray+SYZMutableArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SYZMutableArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.m"; sourceTree = "<group>"; };
+		4B1D3D5A2C2CA112A89ABBAA95EE5DDA /* NSDictionary+SYZDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SYZDictionary.h"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.h"; sourceTree = "<group>"; };
+		50F9B434E189446321CB2B5B1BD6186B /* SYZMediatorMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZMediatorMacros.h; sourceTree = "<group>"; };
+		57AC2BD9D99D6590B330155824502951 /* Pods-SYZMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5BAC9801D2E22FAC65A62B2D72CF3BFE /* NSDateFormatter+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		601877AFAF5CC9FA012099A1B9074D51 /* SYZUIBasekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZUIBasekit-dummy.m"; sourceTree = "<group>"; };
+		67A7BBCBA6D4AAD578B215C4B09A96B3 /* SYZRouterBaseEntranceModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterBaseEntranceModule.m; sourceTree = "<group>"; };
+		693F10D47FEE1A8D16C8E90267D52F2B /* SYZRouterConditionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterConditionBuilder.h; sourceTree = "<group>"; };
+		6A3198DD82DD0B00CD8EBEE022CA9F4D /* SYZMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZMediator-prefix.pch"; sourceTree = "<group>"; };
+		6A5BAA218E3A5E5A3BB6C96B3AD608EE /* Pods-SYZMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6B5E1AC26B2E9EC067D978D1FFC8199C /* Pods-SYZMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6BB504EBD65FC0C03AD1C925181AA1D1 /* SYZRouterPackage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterPackage.m; sourceTree = "<group>"; };
+		6C634747DBCE539848ED491870BB95E9 /* Pods-SYZMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZMediator_Example.modulemap"; sourceTree = "<group>"; };
+		6C6856121B68C3D3A2DF5D40CA0DA933 /* NSHTTPCookieStorage+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPCookieStorage+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		6F0D23DE5832C1BCC1723CF8A5125F1A /* NSSet+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		716C4C35AFC1C884FB280DF557527678 /* Pods-SYZMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZMediator_Example-resources.sh"; sourceTree = "<group>"; };
+		7193063EE45E4791A8656AF524B1A5F1 /* NSObject+SYZObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SYZObject.m"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.m"; sourceTree = "<group>"; };
+		71DE7A26EAC034342751796D90E41E3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CADFC3E9D52F65F926EF021AAE070F /* NSURL+SYZURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SYZURL.m"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.m"; sourceTree = "<group>"; };
+		735F7E53C3F30529BD360BEEDE089A12 /* SYZRouterModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterModuleManager.m; sourceTree = "<group>"; };
+		7C4A9DA3C7FACBFDC355AC2AD0C39522 /* NSAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		866372313848A03AAEF320C5DCBADD00 /* Pods-SYZMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZMediator_Tests-resources.sh"; sourceTree = "<group>"; };
+		885108251F97C66C38C3DEC545215B37 /* Pods-SYZMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		88FA7ADA9356CBD51C74BD1B0CA65196 /* SYZFoundationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationMacros.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationMacros.h; sourceTree = "<group>"; };
+		898F4BE42962BB469795B929E07F55D8 /* NSArray+SYZArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SYZArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.m"; sourceTree = "<group>"; };
+		8C844422207FD22786EEC8AC950758D2 /* NSScanner+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		8CE29F550C9D622D3155E1C0C42272CB /* Pods-SYZMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1F8A080E649946BADAA838AF9D7221 /* Pods-SYZMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		8FCD87C5B36212598C5C7A011AEE7BD7 /* NSDate+SYZDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZDate.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.m"; sourceTree = "<group>"; };
+		929207C1C129D26D28711C82550FF85C /* NSString+SYZString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SYZString.h"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945EB98BF88D6917EFAD160CD4764A41 /* NSMutableAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		97A2F1E16016F7DEB1459C300F2FF79A /* NSException+SYZException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+SYZException.h"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.h"; sourceTree = "<group>"; };
+		9FC12DB5C2D85910BAF8DC53C22BA755 /* NSBundle+SYZBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SYZBundle.m"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.m"; sourceTree = "<group>"; };
+		A12D3CA0FD25E16339E0604D1BFE3434 /* Pods-SYZMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A15371E3DC4B270C684A1A3380980E41 /* Pods-SYZMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A16CE07AD987FAD11A53A52182001F5A /* SYZMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZMediator-dummy.m"; sourceTree = "<group>"; };
+		A1F4C41E5485934E934526CBE97EF369 /* SYZMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZMediator.m; path = SYZMediator/Classes/SYZMediator.m; sourceTree = "<group>"; };
+		A2672B144099804A2397087645B9B24A /* NSURL+SYZURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SYZURL.h"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.h"; sourceTree = "<group>"; };
+		A4707FDB9F4A0CC534EEDA7DDB44A388 /* SYZRouterModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterModuleManager.h; sourceTree = "<group>"; };
+		A642BAB9548136584F535C66031A7B85 /* NSBundle+SYZBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SYZBundle.h"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.h"; sourceTree = "<group>"; };
+		A69EADA12498899CF314E5C01650793B /* NSScanner+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		A6AAE7B90ACA0E7D5A95CC4045805499 /* NSNumber+SYZNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SYZNumber.m"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.m"; sourceTree = "<group>"; };
+		A9CEE9EE363566E85CC097A1579B28FA /* SYZWeakObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZWeakObject.h; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.h; sourceTree = "<group>"; };
+		AAB551F7525A79B14679F8B7457E2EE7 /* SYZMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZMediator-umbrella.h"; sourceTree = "<group>"; };
+		AAF181985E685C0865981C0FFE921621 /* SYZUIBasekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZUIBasekit.xcconfig; sourceTree = "<group>"; };
+		AF617E33F9F43F03FD78B36B8AA194D3 /* SYZDateEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDateEnum.h; path = SYZUIBasekit/Classes/SYZDate/SYZDateEnum.h; sourceTree = "<group>"; };
+		AFC3A0FF20BEB7B83202FE0AFAD8270C /* NSString+SYZString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SYZString.m"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.m"; sourceTree = "<group>"; };
+		B00698593F3325F93790AA5AC1349294 /* SYZRouterConditionBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYZRouterConditionBuilder.m; sourceTree = "<group>"; };
+		B196158D315E269BBCF76BB5863B0570 /* SYZViewControllerTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZViewControllerTransitionProtocol.h; sourceTree = "<group>"; };
+		B2519E5C9F801B965884149E3CB0A753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A994442FD151184439F8FFA324B764 /* SYZRouterBaseEntranceModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterBaseEntranceModule.h; sourceTree = "<group>"; };
+		B5069FB0B2AAA0C9C72371FB287F0202 /* NSObject+SYZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SYZObject.h"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.h"; sourceTree = "<group>"; };
+		B87147A13AD16C8E7D436A02F16DDDEB /* UIDevice+SYZDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SYZDevice.h"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.h"; sourceTree = "<group>"; };
+		BA0F67E469B711EC80BCB7C11BF7B75B /* NSMutableAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		BD2DD7E60A6E45460FEEAAE734DA0CD8 /* NSArray+SYZArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SYZArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.h"; sourceTree = "<group>"; };
+		BE8777F72177323CD088CA329EF023FD /* NSData+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		BF9B0CDCF92E82626BD159B8EE7F6A2A /* UIDevice+SYZDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SYZDevice.m"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.m"; sourceTree = "<group>"; };
+		C223A507F862B4C8044E8AC94751F4FA /* SYZRouterContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterContext.h; sourceTree = "<group>"; };
+		C2A9E6A45CA0F74777DF291C8966D56B /* Pods_SYZMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZMediator_Example.framework; path = "Pods-SYZMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E1144661F950D250F0605537FD8DF5 /* SYZTimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZTimerProxy.m; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.m; sourceTree = "<group>"; };
+		C49E688045F1F3577BC202F676168C99 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZUIBasekit.framework; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D5A2410B4DF728698F68BB50ECC65D /* NSDate+SYZTimeStamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZTimeStamp.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.m"; sourceTree = "<group>"; };
+		C8C2EFB971AB36E6BDA297AB2217B1C5 /* SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDate.h; path = SYZUIBasekit/Classes/SYZDate/SYZDate.h; sourceTree = "<group>"; };
+		C951808B23E72363145E99632FFCE7F0 /* SYZMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZMediator.modulemap; sourceTree = "<group>"; };
+		C9BD31BC4B4C2170ABDCD5C6B6C50C59 /* NSException+SYZException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+SYZException.m"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.m"; sourceTree = "<group>"; };
+		CB18CDC491C4C9D79A21C8A9DED8FA4C /* Pods-SYZMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBA3DA06352ED3C17C85EA521E536D4F /* SYZMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZMediator.h; path = SYZMediator/Classes/SYZMediator.h; sourceTree = "<group>"; };
+		CBEB9A2CD020A77BEF46FB3636E1645E /* NSTimer+SYZTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+SYZTimer.m"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.m"; sourceTree = "<group>"; };
+		CC8B5C3CF4E79A265CADAFA3D6315433 /* UIApplication+SYZFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SYZFoundation.h"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.h"; sourceTree = "<group>"; };
+		CD5AF571D20F89561B8DB73F5F9A4304 /* NSAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		CD8303D04AA52D4431EB639C780237CF /* NSData+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		CE854AB8CFB166B17418F8BD11B630D1 /* NSMutableArray+SYZMutableArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SYZMutableArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.h"; sourceTree = "<group>"; };
+		D080B258A52D9B83E337D937AE4870A6 /* NSFileManager+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		D54D43FBD1C6F980F008973C5D3BD30B /* SYZTimerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZTimerProxy.h; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.h; sourceTree = "<group>"; };
+		DA25AEE062CA33B0ADB41DBF840965BD /* Pods_SYZMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZMediator_Tests.framework; path = "Pods-SYZMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90DABFA330A94B7F3C7516504E2F5C /* SYZWeakObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZWeakObject.m; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.m; sourceTree = "<group>"; };
+		DFBBC33177798B79517DC71FE6932357 /* NSJSONSerialization+SYZUIBaseKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+SYZUIBaseKitAdd.m"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.m"; sourceTree = "<group>"; };
+		E7B9EABB73A9248112AC72372A9EFAE0 /* Pods-SYZMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E83DAA6EF4A47479A8BA526CBABA9D9D /* NSSet+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		EA86DEF23C9A51ED9DEC2EF6D7581777 /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1BD69AF3483A5644A6FDA220667845 /* SYZRouterPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterPackage.h; sourceTree = "<group>"; };
+		EED6C1BD025B7F4109F26FB579BF91D6 /* SYZMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZMediator.framework; path = SYZMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C00A1C1019527FF9D55DFF76321523 /* NSTimer+SYZTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SYZTimer.h"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.h"; sourceTree = "<group>"; };
+		F5E4E1DA0C87C927897E7FB5F9374EF8 /* NSDate+SYZTimeStamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZTimeStamp.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.h"; sourceTree = "<group>"; };
+		F6DA3CC336C07ECF828ED4F1EDB5ABC8 /* NSDictionary+SYZDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SYZDictionary.m"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.m"; sourceTree = "<group>"; };
+		FC552F1C9C61E0E5BF333355D6327833 /* NSDate+SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZDate.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.h"; sourceTree = "<group>"; };
+		FEB9FADDC8658F8183CC0586E6B40446 /* SYZUIBasekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-prefix.pch"; sourceTree = "<group>"; };
+		FF196C35707E48789292FA5277D313A9 /* SYZRouterEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYZRouterEvents.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE5A1E19D443F94CE890F09C95AD2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAFFD6BA0DAC39878389B4C0EADE8EC /* Foundation.framework in Frameworks */,
+				F4ED13D279E548C6701DFFC6163EF5AE /* SYZUIBasekit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8001AD4D0B0ADD8449BC48C7A8E532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60A247182B5962852F9208ED6C31370 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3AB74676D7743E36EC76074C538F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2945084F9E8E7CA2EAB930F8B02407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A5BD6ACAD34CBBFA3E7FED0F7DD255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463BDEB3439538D0177909996AD167FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1CA126426F635F08DE94379797F0EC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B196158D315E269BBCF76BB5863B0570 /* SYZViewControllerTransitionProtocol.h */,
+			);
+			name = Protocols;
+			path = SYZMediator/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		3890BC0D2085030FF756AD974F482B8D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1248BA51FD17F5AC1C32FF970E6F781C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		38D69A417B3D3623D455F90EA371783D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				17134C72D204B2BAD0862089E077D7C4 /* LICENSE */,
+				270E1DFD291D7903D92CCDCE28F80A25 /* README.md */,
+				1F4D6ACD313D6228FA67F526204B6F3A /* SYZMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3CE00A5C13BF8C00B61761BAA754953F /* Intercepter */ = {
+			isa = PBXGroup;
+			children = (
+				38AFF59840801BB0B754F3EAB7B614F5 /* ISYZMediatorIntercepter.h */,
+			);
+			name = Intercepter;
+			path = SYZMediator/Classes/Intercepter;
+			sourceTree = "<group>";
+		};
+		402C5498A819AB70E5817924EAE7E5B3 /* ConditionBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				693F10D47FEE1A8D16C8E90267D52F2B /* SYZRouterConditionBuilder.h */,
+				B00698593F3325F93790AA5AC1349294 /* SYZRouterConditionBuilder.m */,
+			);
+			name = ConditionBuilder;
+			path = ConditionBuilder;
+			sourceTree = "<group>";
+		};
+		5D65257691309C69197E2C5B350F143D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA86DEF23C9A51ED9DEC2EF6D7581777 /* SYZUIBasekit.framework */,
+				3890BC0D2085030FF756AD974F482B8D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6455A1F189B98E90A05220EB6B6A54B3 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				50F9B434E189446321CB2B5B1BD6186B /* SYZMediatorMacros.h */,
+			);
+			name = Macros;
+			path = SYZMediator/Classes/Macros;
+			sourceTree = "<group>";
+		};
+		781943EEF4227676F05C94BC518C9D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A9E6A45CA0F74777DF291C8966D56B /* Pods_SYZMediator_Example.framework */,
+				DA25AEE062CA33B0ADB41DBF840965BD /* Pods_SYZMediator_Tests.framework */,
+				EED6C1BD025B7F4109F26FB579BF91D6 /* SYZMediator.framework */,
+				C49E688045F1F3577BC202F676168C99 /* SYZUIBasekit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B18219FA5F5FE9D4504D56E8330C4EC0 /* Development Pods */,
+				5D65257691309C69197E2C5B350F143D /* Frameworks */,
+				938C371E0CDB8C0911A9C5C41E1A3AAD /* Pods */,
+				781943EEF4227676F05C94BC518C9D3F /* Products */,
+				F3F5D335FA71BE843BC53076C1FE0DD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		938C371E0CDB8C0911A9C5C41E1A3AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EA170E0526C25F5A12A1CF917BB36 /* SYZUIBasekit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B018897DA53EFD7B9ACA4988E50179C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1765EDBDF12FF1ED01161DBABF5F04FB /* Info.plist */,
+				C951808B23E72363145E99632FFCE7F0 /* SYZMediator.modulemap */,
+				0126EA9CA5B041A12E4AC96C6ADEE062 /* SYZMediator.xcconfig */,
+				A16CE07AD987FAD11A53A52182001F5A /* SYZMediator-dummy.m */,
+				6A3198DD82DD0B00CD8EBEE022CA9F4D /* SYZMediator-prefix.pch */,
+				AAB551F7525A79B14679F8B7457E2EE7 /* SYZMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYZMediator";
+			sourceTree = "<group>";
+		};
+		AB2EA170E0526C25F5A12A1CF917BB36 /* SYZUIBasekit */ = {
+			isa = PBXGroup;
+			children = (
+				BD2DD7E60A6E45460FEEAAE734DA0CD8 /* NSArray+SYZArrayAdd.h */,
+				898F4BE42962BB469795B929E07F55D8 /* NSArray+SYZArrayAdd.m */,
+				7C4A9DA3C7FACBFDC355AC2AD0C39522 /* NSAttributedString+SYZAdditon.h */,
+				CD5AF571D20F89561B8DB73F5F9A4304 /* NSAttributedString+SYZAdditon.m */,
+				A642BAB9548136584F535C66031A7B85 /* NSBundle+SYZBundle.h */,
+				9FC12DB5C2D85910BAF8DC53C22BA755 /* NSBundle+SYZBundle.m */,
+				CD8303D04AA52D4431EB639C780237CF /* NSData+SYZFoundationAdd.h */,
+				BE8777F72177323CD088CA329EF023FD /* NSData+SYZFoundationAdd.m */,
+				FC552F1C9C61E0E5BF333355D6327833 /* NSDate+SYZDate.h */,
+				8FCD87C5B36212598C5C7A011AEE7BD7 /* NSDate+SYZDate.m */,
+				F5E4E1DA0C87C927897E7FB5F9374EF8 /* NSDate+SYZTimeStamp.h */,
+				C6D5A2410B4DF728698F68BB50ECC65D /* NSDate+SYZTimeStamp.m */,
+				1A4C24B068A470F275BA8ED395C6E2C7 /* NSDateFormatter+SYZFoundationAdd.h */,
+				5BAC9801D2E22FAC65A62B2D72CF3BFE /* NSDateFormatter+SYZFoundationAdd.m */,
+				4B1D3D5A2C2CA112A89ABBAA95EE5DDA /* NSDictionary+SYZDictionary.h */,
+				F6DA3CC336C07ECF828ED4F1EDB5ABC8 /* NSDictionary+SYZDictionary.m */,
+				97A2F1E16016F7DEB1459C300F2FF79A /* NSException+SYZException.h */,
+				C9BD31BC4B4C2170ABDCD5C6B6C50C59 /* NSException+SYZException.m */,
+				D080B258A52D9B83E337D937AE4870A6 /* NSFileManager+SYZFoundationAdd.h */,
+				1AA89F86C256129006252FA1FD811838 /* NSFileManager+SYZFoundationAdd.m */,
+				03C8E3C818B80ED4100BFB6F07552437 /* NSHTTPCookieStorage+SYZFoundationAdd.h */,
+				6C6856121B68C3D3A2DF5D40CA0DA933 /* NSHTTPCookieStorage+SYZFoundationAdd.m */,
+				33169B5C07A4E79314529E7CBF309D82 /* NSJSONSerialization+SYZUIBaseKitAdd.h */,
+				DFBBC33177798B79517DC71FE6932357 /* NSJSONSerialization+SYZUIBaseKitAdd.m */,
+				CE854AB8CFB166B17418F8BD11B630D1 /* NSMutableArray+SYZMutableArrayAdd.h */,
+				477FC63135AC25F5A85892CE13B4E3A7 /* NSMutableArray+SYZMutableArrayAdd.m */,
+				BA0F67E469B711EC80BCB7C11BF7B75B /* NSMutableAttributedString+SYZAdditon.h */,
+				945EB98BF88D6917EFAD160CD4764A41 /* NSMutableAttributedString+SYZAdditon.m */,
+				30A4B1BFF8BE7782A0CAC45FC5015C02 /* NSNumber+SYZNumber.h */,
+				A6AAE7B90ACA0E7D5A95CC4045805499 /* NSNumber+SYZNumber.m */,
+				B5069FB0B2AAA0C9C72371FB287F0202 /* NSObject+SYZObject.h */,
+				7193063EE45E4791A8656AF524B1A5F1 /* NSObject+SYZObject.m */,
+				8C844422207FD22786EEC8AC950758D2 /* NSScanner+SYZFoundationAdd.h */,
+				A69EADA12498899CF314E5C01650793B /* NSScanner+SYZFoundationAdd.m */,
+				6F0D23DE5832C1BCC1723CF8A5125F1A /* NSSet+SYZFoundationAdd.h */,
+				E83DAA6EF4A47479A8BA526CBABA9D9D /* NSSet+SYZFoundationAdd.m */,
+				929207C1C129D26D28711C82550FF85C /* NSString+SYZString.h */,
+				AFC3A0FF20BEB7B83202FE0AFAD8270C /* NSString+SYZString.m */,
+				F2C00A1C1019527FF9D55DFF76321523 /* NSTimer+SYZTimer.h */,
+				CBEB9A2CD020A77BEF46FB3636E1645E /* NSTimer+SYZTimer.m */,
+				A2672B144099804A2397087645B9B24A /* NSURL+SYZURL.h */,
+				72CADFC3E9D52F65F926EF021AAE070F /* NSURL+SYZURL.m */,
+				C8C2EFB971AB36E6BDA297AB2217B1C5 /* SYZDate.h */,
+				AF617E33F9F43F03FD78B36B8AA194D3 /* SYZDateEnum.h */,
+				88FA7ADA9356CBD51C74BD1B0CA65196 /* SYZFoundationMacros.h */,
+				112C595B245AF2D2208EB1C644E1D3EE /* SYZFoundationShorthandMarcos.h */,
+				D54D43FBD1C6F980F008973C5D3BD30B /* SYZTimerProxy.h */,
+				C2E1144661F950D250F0605537FD8DF5 /* SYZTimerProxy.m */,
+				27BED29FAD6921CEDA1032EDC50AF7D3 /* SYZUIBasekit.h */,
+				A9CEE9EE363566E85CC097A1579B28FA /* SYZWeakObject.h */,
+				DF90DABFA330A94B7F3C7516504E2F5C /* SYZWeakObject.m */,
+				CC8B5C3CF4E79A265CADAFA3D6315433 /* UIApplication+SYZFoundation.h */,
+				018550D51C5EED31E483C89448FC9F49 /* UIApplication+SYZFoundation.m */,
+				B87147A13AD16C8E7D436A02F16DDDEB /* UIDevice+SYZDevice.h */,
+				BF9B0CDCF92E82626BD159B8EE7F6A2A /* UIDevice+SYZDevice.m */,
+				C233DEF7FAFD0333C990C48944A265C9 /* Support Files */,
+			);
+			name = SYZUIBasekit;
+			path = SYZUIBasekit;
+			sourceTree = "<group>";
+		};
+		AE0FEB5343C5A749222F80844ED1D181 /* Pods-SYZMediator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C10CB2C8E9DB399EFCC96E6AE7D7BCE /* Info.plist */,
+				6C634747DBCE539848ED491870BB95E9 /* Pods-SYZMediator_Example.modulemap */,
+				3F547FBD131707A0BEDA888D1E311C29 /* Pods-SYZMediator_Example-acknowledgements.markdown */,
+				A12D3CA0FD25E16339E0604D1BFE3434 /* Pods-SYZMediator_Example-acknowledgements.plist */,
+				1875C6521F753D705B59106618E349B5 /* Pods-SYZMediator_Example-dummy.m */,
+				57AC2BD9D99D6590B330155824502951 /* Pods-SYZMediator_Example-frameworks.sh */,
+				716C4C35AFC1C884FB280DF557527678 /* Pods-SYZMediator_Example-resources.sh */,
+				8D1F8A080E649946BADAA838AF9D7221 /* Pods-SYZMediator_Example-umbrella.h */,
+				8CE29F550C9D622D3155E1C0C42272CB /* Pods-SYZMediator_Example.debug.xcconfig */,
+				E7B9EABB73A9248112AC72372A9EFAE0 /* Pods-SYZMediator_Example.release.xcconfig */,
+			);
+			name = "Pods-SYZMediator_Example";
+			path = "Target Support Files/Pods-SYZMediator_Example";
+			sourceTree = "<group>";
+		};
+		AF0CD6EF74511A5E69FB2F0C6923A3CC /* SYZMediator */ = {
+			isa = PBXGroup;
+			children = (
+				38D69A417B3D3623D455F90EA371783D /* Pod */,
+				E576D04FB436DECD439B073EAAD1550B /* source */,
+				9B018897DA53EFD7B9ACA4988E50179C /* Support Files */,
+			);
+			name = SYZMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B18219FA5F5FE9D4504D56E8330C4EC0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF0CD6EF74511A5E69FB2F0C6923A3CC /* SYZMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C1C2E942E2A13CB9665565DD6FB63691 /* Pods-SYZMediator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71DE7A26EAC034342751796D90E41E3F /* Info.plist */,
+				1CF55FBBF2733B435E19B4EC7BDEB227 /* Pods-SYZMediator_Tests.modulemap */,
+				CB18CDC491C4C9D79A21C8A9DED8FA4C /* Pods-SYZMediator_Tests-acknowledgements.markdown */,
+				3AB86372AEBD5F0546657AA967C23507 /* Pods-SYZMediator_Tests-acknowledgements.plist */,
+				18DDB3689C00F1C4717B8AB136966134 /* Pods-SYZMediator_Tests-dummy.m */,
+				6A5BAA218E3A5E5A3BB6C96B3AD608EE /* Pods-SYZMediator_Tests-frameworks.sh */,
+				866372313848A03AAEF320C5DCBADD00 /* Pods-SYZMediator_Tests-resources.sh */,
+				6B5E1AC26B2E9EC067D978D1FFC8199C /* Pods-SYZMediator_Tests-umbrella.h */,
+				885108251F97C66C38C3DEC545215B37 /* Pods-SYZMediator_Tests.debug.xcconfig */,
+				A15371E3DC4B270C684A1A3380980E41 /* Pods-SYZMediator_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYZMediator_Tests";
+			path = "Target Support Files/Pods-SYZMediator_Tests";
+			sourceTree = "<group>";
+		};
+		C233DEF7FAFD0333C990C48944A265C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2519E5C9F801B965884149E3CB0A753 /* Info.plist */,
+				366CFD481625A2091D53894D7FB544E5 /* SYZUIBasekit.modulemap */,
+				AAF181985E685C0865981C0FFE921621 /* SYZUIBasekit.xcconfig */,
+				601877AFAF5CC9FA012099A1B9074D51 /* SYZUIBasekit-dummy.m */,
+				FEB9FADDC8658F8183CC0586E6B40446 /* SYZUIBasekit-prefix.pch */,
+				1968C352E966EC7281982B66C6B1C2EF /* SYZUIBasekit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYZUIBasekit";
+			sourceTree = "<group>";
+		};
+		E576D04FB436DECD439B073EAAD1550B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CBA3DA06352ED3C17C85EA521E536D4F /* SYZMediator.h */,
+				A1F4C41E5485934E934526CBE97EF369 /* SYZMediator.m */,
+				F5A514573C18AD491E01077F9DBFB530 /* Context */,
+				F9EFE95F505EF1B6C08D23A834F0E9AD /* Events */,
+				3CE00A5C13BF8C00B61761BAA754953F /* Intercepter */,
+				6455A1F189B98E90A05220EB6B6A54B3 /* Macros */,
+				F80751E5B6395818A5FEE2C331E4E911 /* Models */,
+				FC8DF938E26D4FC4F3E1C85906676BBB /* ModuleManager */,
+				0C1CA126426F635F08DE94379797F0EC /* Protocols */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		F3F5D335FA71BE843BC53076C1FE0DD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FEB5343C5A749222F80844ED1D181 /* Pods-SYZMediator_Example */,
+				C1C2E942E2A13CB9665565DD6FB63691 /* Pods-SYZMediator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5A514573C18AD491E01077F9DBFB530 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				C223A507F862B4C8044E8AC94751F4FA /* SYZRouterContext.h */,
+				2E8FA918A2EA48902E2CA4FF449D79B9 /* SYZRouterContext.m */,
+				402C5498A819AB70E5817924EAE7E5B3 /* ConditionBuilder */,
+			);
+			name = Context;
+			path = SYZMediator/Classes/Context;
+			sourceTree = "<group>";
+		};
+		F80751E5B6395818A5FEE2C331E4E911 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB1BD69AF3483A5644A6FDA220667845 /* SYZRouterPackage.h */,
+				6BB504EBD65FC0C03AD1C925181AA1D1 /* SYZRouterPackage.m */,
+			);
+			name = Models;
+			path = SYZMediator/Classes/Models;
+			sourceTree = "<group>";
+		};
+		F9EFE95F505EF1B6C08D23A834F0E9AD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				FF196C35707E48789292FA5277D313A9 /* SYZRouterEvents.h */,
+				1892CEF6B831C695E21351E81B14B7AA /* SYZRouterEvents.m */,
+			);
+			name = Events;
+			path = SYZMediator/Classes/Events;
+			sourceTree = "<group>";
+		};
+		FC8DF938E26D4FC4F3E1C85906676BBB /* ModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4A994442FD151184439F8FFA324B764 /* SYZRouterBaseEntranceModule.h */,
+				67A7BBCBA6D4AAD578B215C4B09A96B3 /* SYZRouterBaseEntranceModule.m */,
+				A4707FDB9F4A0CC534EEDA7DDB44A388 /* SYZRouterModuleManager.h */,
+				735F7E53C3F30529BD360BEEDE089A12 /* SYZRouterModuleManager.m */,
+			);
+			name = ModuleManager;
+			path = SYZMediator/Classes/ModuleManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		160705FE73443F1E5946AF9F7146941D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81EC26A85F5A72B48524C4106D0801C /* Pods-SYZMediator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD03ED0696D07ACDAFDF796B79FD6E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9AF2BC7F69F3CA267E64ADA2E0573B /* NSArray+SYZArrayAdd.h in Headers */,
+				41621917633297A8884C915CCDDA4901 /* NSAttributedString+SYZAdditon.h in Headers */,
+				9464A36FBB5692ABBDBF4BC45F8B1D11 /* NSBundle+SYZBundle.h in Headers */,
+				2B29E784DCD1A23B7F87C9A8411135C0 /* NSData+SYZFoundationAdd.h in Headers */,
+				C178C14850ABD4CA8DB1875C26FF8720 /* NSDate+SYZDate.h in Headers */,
+				1497D1F2904792E41D2740FEEBCAA8F7 /* NSDate+SYZTimeStamp.h in Headers */,
+				3CFEA9F04047F687EA08222E323FD205 /* NSDateFormatter+SYZFoundationAdd.h in Headers */,
+				962534D0AA1DB6E25B2BDA24B9C4D159 /* NSDictionary+SYZDictionary.h in Headers */,
+				6A19FB3403F68D48DBF47148F392638F /* NSException+SYZException.h in Headers */,
+				3E083B4106B9CCD0F171964397B2DAEA /* NSFileManager+SYZFoundationAdd.h in Headers */,
+				98B0B5F10DF42D1BD152C071D1126DBF /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */,
+				4CD3E1A66E2D5323C3B331A94821D2B6 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */,
+				385DEBC3AADB90A5EA9C6CBD57926623 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */,
+				12D34729B783BD104F1D371D731B63F6 /* NSMutableAttributedString+SYZAdditon.h in Headers */,
+				E497244D54764D2C319C014FCBDCABD7 /* NSNumber+SYZNumber.h in Headers */,
+				962E9AC5B50F78C85543C0221D23B664 /* NSObject+SYZObject.h in Headers */,
+				5E04BD4B8DF26355E579B2EFC29A76B9 /* NSScanner+SYZFoundationAdd.h in Headers */,
+				172487B1E3C901546A71EA6BCF5C673A /* NSSet+SYZFoundationAdd.h in Headers */,
+				DAA53F3C7E5394FAF10C038CCCF18C3F /* NSString+SYZString.h in Headers */,
+				B35744A2BD7F578938BF98874F9E67B3 /* NSTimer+SYZTimer.h in Headers */,
+				DFCA15B8E971935CD8A99E80E19B7621 /* NSURL+SYZURL.h in Headers */,
+				C7616462044DF35FD1D3231A4C8C84AC /* SYZDate.h in Headers */,
+				31BCE9AD291D83E7FF6D9C1F1AFFCDE7 /* SYZDateEnum.h in Headers */,
+				E47D8AC0CD144D3C54FF4640F3AF959D /* SYZFoundationMacros.h in Headers */,
+				C8E75DF9924F5894B25CCE63B231D148 /* SYZFoundationShorthandMarcos.h in Headers */,
+				C1EFD6A6092995A9780BAE1BCA3D2B98 /* SYZTimerProxy.h in Headers */,
+				948E2021680996516686C09842930BD6 /* SYZUIBasekit-umbrella.h in Headers */,
+				C8B6974B9A9422C3459E3A45F0A03085 /* SYZUIBasekit.h in Headers */,
+				062367715494136FBC41033C67D47106 /* SYZWeakObject.h in Headers */,
+				479D9BF00A15289F648FCE992A72714B /* UIApplication+SYZFoundation.h in Headers */,
+				D96673A1FCD4F38F95D0D55FAE415050 /* UIDevice+SYZDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C36CCB174AB4C8DCDEFE3020FAF5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0702A8ABE98728D1F90F2A53408BCE9A /* Pods-SYZMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC45B4516AA245EEED5FCC673EB3DC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA0A98962CCC4AEDB8B28B6980AA0BF /* ISYZMediatorIntercepter.h in Headers */,
+				EFE4B554E06E370EB79A414392EBF2D7 /* SYZMediator-umbrella.h in Headers */,
+				9D3274569DC0E2CE15389D0622B25CC5 /* SYZMediator.h in Headers */,
+				AAA2512F70FCCBF10F3A479357CF7999 /* SYZMediatorMacros.h in Headers */,
+				9BB1A3E14E7C9A271D7BE43D77B9F30F /* SYZRouterBaseEntranceModule.h in Headers */,
+				E7915241A54B0A58E0B566AF98CF92BA /* SYZRouterConditionBuilder.h in Headers */,
+				F738FC90F803AE399C8D8893B20BB0C4 /* SYZRouterContext.h in Headers */,
+				F76623D8BD90EC46181DDD1AD585A354 /* SYZRouterEvents.h in Headers */,
+				0D822B7EE9AD50205D137E5267F9E085 /* SYZRouterModuleManager.h in Headers */,
+				07A17B127438AB58F6435627C083EA82 /* SYZRouterPackage.h in Headers */,
+				48260F2B3D9F7695503C4B063D36455F /* SYZViewControllerTransitionProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		842C81E7F2DD6F45C3D9E5643F4C2DE3 /* SYZUIBasekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6693A9164B65CF8D1BDE2A9DC20565C0 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */;
+			buildPhases = (
+				ED46E2ECF8AB4F8A8B944968F36D552D /* Sources */,
+				9BD3AB74676D7743E36EC76074C538F7 /* Frameworks */,
+				3FD03ED0696D07ACDAFDF796B79FD6E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYZUIBasekit;
+			productName = SYZUIBasekit;
+			productReference = C49E688045F1F3577BC202F676168C99 /* SYZUIBasekit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B40D71BF0AFAE6197FEDF9FEBF5F4C1F /* Pods-SYZMediator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FA113A49348028DE67C562D57A5796 /* Build configuration list for PBXNativeTarget "Pods-SYZMediator_Tests" */;
+			buildPhases = (
+				3F7623870EA6E9868CD331AFD1DECC68 /* Sources */,
+				B7A5BD6ACAD34CBBFA3E7FED0F7DD255 /* Frameworks */,
+				A17C36CCB174AB4C8DCDEFE3020FAF5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SYZMediator_Tests";
+			productName = "Pods-SYZMediator_Tests";
+			productReference = DA25AEE062CA33B0ADB41DBF840965BD /* Pods_SYZMediator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C54C751364C1E041368F16277BCC90F1 /* SYZMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE315D2D06AEAFDDDF0CA0171785002 /* Build configuration list for PBXNativeTarget "SYZMediator" */;
+			buildPhases = (
+				ACDD39A000E583FDF46E86E30986D60F /* Sources */,
+				0EE5A1E19D443F94CE890F09C95AD2EF /* Frameworks */,
+				DAC45B4516AA245EEED5FCC673EB3DC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE1311E0D5C7A1416560673917F509A /* PBXTargetDependency */,
+			);
+			name = SYZMediator;
+			productName = SYZMediator;
+			productReference = EED6C1BD025B7F4109F26FB579BF91D6 /* SYZMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED93B960B37FFEA1DF655E9BE4B16195 /* Pods-SYZMediator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867E8F962820E946912FFFF2D17800C0 /* Build configuration list for PBXNativeTarget "Pods-SYZMediator_Example" */;
+			buildPhases = (
+				3B2A8493E964C7B5B8E18FB8B6B91180 /* Sources */,
+				4F8001AD4D0B0ADD8449BC48C7A8E532 /* Frameworks */,
+				160705FE73443F1E5946AF9F7146941D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A27ACC50A0EE16471B8E398D15EDBF0 /* PBXTargetDependency */,
+				D5DE3FF2D27C89EEA29D616D7B3B25C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZMediator_Example";
+			productName = "Pods-SYZMediator_Example";
+			productReference = C2A9E6A45CA0F74777DF291C8966D56B /* Pods_SYZMediator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 781943EEF4227676F05C94BC518C9D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED93B960B37FFEA1DF655E9BE4B16195 /* Pods-SYZMediator_Example */,
+				B40D71BF0AFAE6197FEDF9FEBF5F4C1F /* Pods-SYZMediator_Tests */,
+				C54C751364C1E041368F16277BCC90F1 /* SYZMediator */,
+				842C81E7F2DD6F45C3D9E5643F4C2DE3 /* SYZUIBasekit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2A8493E964C7B5B8E18FB8B6B91180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3CCBC95B713C7E172F8E304945E8C /* Pods-SYZMediator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7623870EA6E9868CD331AFD1DECC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCC58128D4817D20236D9622BA55171 /* Pods-SYZMediator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD39A000E583FDF46E86E30986D60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A08EC6FA7F2B1C524E6B79411FF6274 /* SYZMediator-dummy.m in Sources */,
+				AA1BDA29BA6B8B9C9723D6F4A8B23313 /* SYZMediator.m in Sources */,
+				73E31DA13A074787B20E99DE6C37E749 /* SYZRouterBaseEntranceModule.m in Sources */,
+				F6E1946C194C7ABE8F07BAF6E46E9397 /* SYZRouterConditionBuilder.m in Sources */,
+				67D61231E61272A9EC8A698703B257D8 /* SYZRouterContext.m in Sources */,
+				98D66952CC0F512911CA89AB82045E94 /* SYZRouterEvents.m in Sources */,
+				0330F547E9D03645E68F80F453D61DA4 /* SYZRouterModuleManager.m in Sources */,
+				19D170F47AD4197906BA8FF3907653AE /* SYZRouterPackage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46E2ECF8AB4F8A8B944968F36D552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28912A38CF72258CFA44A6D3D06D322 /* NSArray+SYZArrayAdd.m in Sources */,
+				9F92961E3510DCA5BB9DAE556BB4D40F /* NSAttributedString+SYZAdditon.m in Sources */,
+				D18DDB8E80810089ADF9F9658DEDB4C7 /* NSBundle+SYZBundle.m in Sources */,
+				EAAD22FFB6D3539999761C6B21BE8D20 /* NSData+SYZFoundationAdd.m in Sources */,
+				62D0C1CF66453EF3F09E5F3BFBC69C4B /* NSDate+SYZDate.m in Sources */,
+				EAA33723C68C5CED697D632EEA97922C /* NSDate+SYZTimeStamp.m in Sources */,
+				963005E5098B05D17E2C8E6C6E616301 /* NSDateFormatter+SYZFoundationAdd.m in Sources */,
+				FAAA711345414F91CAC951A471F5F6E8 /* NSDictionary+SYZDictionary.m in Sources */,
+				168E497C94305602DF3BFDB3EC06B63E /* NSException+SYZException.m in Sources */,
+				15ACC425F39E1CFEB598F7D122CA873B /* NSFileManager+SYZFoundationAdd.m in Sources */,
+				35F73F2723DB0344015135C6C08B7FCD /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */,
+				F46D7777F8ADE0A4DF5A9B9F0014DEB7 /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */,
+				E5A9E553525E6F5F4D7F29FEFC1B7DBC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */,
+				47D2E534C99EEDC264F978F697B69238 /* NSMutableAttributedString+SYZAdditon.m in Sources */,
+				37438E4FD6343AD670FBAB6D7F432A92 /* NSNumber+SYZNumber.m in Sources */,
+				8A41295DED105300AC75F37298E12805 /* NSObject+SYZObject.m in Sources */,
+				B8EEF53BE0D277255BC51329710A19F0 /* NSScanner+SYZFoundationAdd.m in Sources */,
+				A61A8AB65CADE6226E543B40FCEB46C4 /* NSSet+SYZFoundationAdd.m in Sources */,
+				4988806B15581D46BC0590E2E9DE0392 /* NSString+SYZString.m in Sources */,
+				CE8CF5467A6814E1F83ABDFB981E3139 /* NSTimer+SYZTimer.m in Sources */,
+				C680BD8322EFD5E37FDD900B1B62EC6D /* NSURL+SYZURL.m in Sources */,
+				B7521DA5AB7FE3A501D4F92FAC387C9E /* SYZTimerProxy.m in Sources */,
+				39AC31BE09367409BB361E89D700EA7B /* SYZUIBasekit-dummy.m in Sources */,
+				ADBCB4C8DB99779C61F5FF57F4A11CF8 /* SYZWeakObject.m in Sources */,
+				D0441994CC789E5E886735B8D6EF726D /* UIApplication+SYZFoundation.m in Sources */,
+				5E3235D4FADAD30D6A2EC6A1D451942A /* UIDevice+SYZDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE1311E0D5C7A1416560673917F509A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 842C81E7F2DD6F45C3D9E5643F4C2DE3 /* SYZUIBasekit */;
+			targetProxy = C7FE9E5BA0AECDB94AA9BA4C78636850 /* PBXContainerItemProxy */;
+		};
+		8A27ACC50A0EE16471B8E398D15EDBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZMediator;
+			target = C54C751364C1E041368F16277BCC90F1 /* SYZMediator */;
+			targetProxy = 113C5EE506D5BCB62E5BC79116C433ED /* PBXContainerItemProxy */;
+		};
+		D5DE3FF2D27C89EEA29D616D7B3B25C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 842C81E7F2DD6F45C3D9E5643F4C2DE3 /* SYZUIBasekit */;
+			targetProxy = 0C2D42941224B4F6733E7F636B050AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A75C0C6B140C92ACAC66378593E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0126EA9CA5B041A12E4AC96C6ADEE062 /* SYZMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZMediator/SYZMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZMediator/SYZMediator.modulemap";
+				PRODUCT_NAME = SYZMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30F9B975FE40890486B8A80EA8DD2A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15371E3DC4B270C684A1A3380980E41 /* Pods-SYZMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZMediator_Tests/Pods-SYZMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3436C8A5B7CFFB37CF3C7FCFCEBEB07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF181985E685C0865981C0FFE921621 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		358957CD2E20D2FC37900F45835FC809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF181985E685C0865981C0FFE921621 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B4BC55C21BC32F0C5EA4B1A85E0CEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0126EA9CA5B041A12E4AC96C6ADEE062 /* SYZMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZMediator/SYZMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZMediator/SYZMediator.modulemap";
+				PRODUCT_NAME = SYZMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5BA6FDA0D5CA049EA1D4A8F782FA1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE29F550C9D622D3155E1C0C42272CB /* Pods-SYZMediator_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZMediator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZMediator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE52EE01CB9A7A988C11690406491CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885108251F97C66C38C3DEC545215B37 /* Pods-SYZMediator_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZMediator_Tests/Pods-SYZMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDD857679DD74D835981655B68539692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B9EABB73A9248112AC72372A9EFAE0 /* Pods-SYZMediator_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZMediator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZMediator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE315D2D06AEAFDDDF0CA0171785002 /* Build configuration list for PBXNativeTarget "SYZMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4BC55C21BC32F0C5EA4B1A85E0CEEA /* Debug */,
+				14A75C0C6B140C92ACAC66378593E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6693A9164B65CF8D1BDE2A9DC20565C0 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358957CD2E20D2FC37900F45835FC809 /* Debug */,
+				3436C8A5B7CFFB37CF3C7FCFCEBEB07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867E8F962820E946912FFFF2D17800C0 /* Build configuration list for PBXNativeTarget "Pods-SYZMediator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BA6FDA0D5CA049EA1D4A8F782FA1C9 /* Debug */,
+				CDD857679DD74D835981655B68539692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FA113A49348028DE67C562D57A5796 /* Build configuration list for PBXNativeTarget "Pods-SYZMediator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE52EE01CB9A7A988C11690406491CE2 /* Debug */,
+				30F9B975FE40890486B8A80EA8DD2A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

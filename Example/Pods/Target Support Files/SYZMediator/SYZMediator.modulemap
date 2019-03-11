@@ -1,0 +1,6 @@
+framework module SYZMediator {
+  umbrella header "SYZMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
