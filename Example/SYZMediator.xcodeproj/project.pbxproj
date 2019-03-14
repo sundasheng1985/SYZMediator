@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* SYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* SYZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* SYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* SYZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,18 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7740FF47A0BE2E08780BB124 /* Pods_SYZMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61EC9876DF123DA537C2E6F /* Pods_SYZMediator_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A42D853D2239F938009E5686 /* SYZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D853C2239F938009E5686 /* SYZRootViewController.m */; };
+		A42D85402239F94D009E5686 /* SYZNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D853F2239F94D009E5686 /* SYZNavViewController.m */; };
+		A42D85472239FFCB009E5686 /* SYZMediator+SYZAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D85462239FFCB009E5686 /* SYZMediator+SYZAModule.m */; };
+		A42D854A223A0011009E5686 /* SYZAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D8549223A0011009E5686 /* SYZAModule.m */; };
+		A42D854D223A0059009E5686 /* SYZAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D854C223A0059009E5686 /* SYZAViewController.m */; };
+		A42D8550223A03AE009E5686 /* SYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D854F223A03AE009E5686 /* SYZDetailViewController.m */; };
+		A42D8553223A06E1009E5686 /* SYZMediator+SYZBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D8552223A06E1009E5686 /* SYZMediator+SYZBModule.m */; };
+		A42D8556223A07AA009E5686 /* SYZBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D8555223A07AA009E5686 /* SYZBModule.m */; };
+		A42D8559223A07E6009E5686 /* SYZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D8558223A07E6009E5686 /* SYZBViewController.m */; };
+		A42D855C223A0F1F009E5686 /* SYZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D855B223A0F1F009E5686 /* SYZCViewController.m */; };
+		A42D855F223A0F3A009E5686 /* SYZMediator+SYZCModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D855E223A0F3A009E5686 /* SYZMediator+SYZCModule.m */; };
+		A42D8562223A1062009E5686 /* SYZCModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D8561223A1062009E5686 /* SYZCModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +61,6 @@
 		6003F59B195388D20070C39A /* SYZMediator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYZMediator-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* SYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* SYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* SYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* SYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* SYZMediator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYZMediator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,6 +71,30 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7E1A8D4AD911F761010BC8 /* Pods-SYZMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYZMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42D853B2239F938009E5686 /* SYZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZRootViewController.h; sourceTree = "<group>"; };
+		A42D853C2239F938009E5686 /* SYZRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZRootViewController.m; sourceTree = "<group>"; };
+		A42D853E2239F94D009E5686 /* SYZNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZNavViewController.h; sourceTree = "<group>"; };
+		A42D853F2239F94D009E5686 /* SYZNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZNavViewController.m; sourceTree = "<group>"; };
+		A42D85452239FFCB009E5686 /* SYZMediator+SYZAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYZMediator+SYZAModule.h"; sourceTree = "<group>"; };
+		A42D85462239FFCB009E5686 /* SYZMediator+SYZAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SYZMediator+SYZAModule.m"; sourceTree = "<group>"; };
+		A42D8548223A0011009E5686 /* SYZAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZAModule.h; sourceTree = "<group>"; };
+		A42D8549223A0011009E5686 /* SYZAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZAModule.m; sourceTree = "<group>"; };
+		A42D854B223A0059009E5686 /* SYZAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZAViewController.h; sourceTree = "<group>"; };
+		A42D854C223A0059009E5686 /* SYZAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZAViewController.m; sourceTree = "<group>"; };
+		A42D854E223A03AE009E5686 /* SYZDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZDetailViewController.h; sourceTree = "<group>"; };
+		A42D854F223A03AE009E5686 /* SYZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZDetailViewController.m; sourceTree = "<group>"; };
+		A42D8551223A06E1009E5686 /* SYZMediator+SYZBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYZMediator+SYZBModule.h"; sourceTree = "<group>"; };
+		A42D8552223A06E1009E5686 /* SYZMediator+SYZBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SYZMediator+SYZBModule.m"; sourceTree = "<group>"; };
+		A42D8554223A07AA009E5686 /* SYZBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZBModule.h; sourceTree = "<group>"; };
+		A42D8555223A07AA009E5686 /* SYZBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZBModule.m; sourceTree = "<group>"; };
+		A42D8557223A07E6009E5686 /* SYZBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZBViewController.h; sourceTree = "<group>"; };
+		A42D8558223A07E6009E5686 /* SYZBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZBViewController.m; sourceTree = "<group>"; };
+		A42D855A223A0F1F009E5686 /* SYZCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZCViewController.h; sourceTree = "<group>"; };
+		A42D855B223A0F1F009E5686 /* SYZCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZCViewController.m; sourceTree = "<group>"; };
+		A42D855D223A0F3A009E5686 /* SYZMediator+SYZCModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYZMediator+SYZCModule.h"; sourceTree = "<group>"; };
+		A42D855E223A0F3A009E5686 /* SYZMediator+SYZCModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SYZMediator+SYZCModule.m"; sourceTree = "<group>"; };
+		A42D8560223A1062009E5686 /* SYZCModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZCModule.h; sourceTree = "<group>"; };
+		A42D8561223A1062009E5686 /* SYZCModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZCModule.m; sourceTree = "<group>"; };
 		AF79F19C6600998D9661E580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BF1726F7647399CBF0A6175A /* Pods-SYZMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYZMediator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C61EC9876DF123DA537C2E6F /* Pods_SYZMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYZMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,9 +167,17 @@
 			children = (
 				6003F59C195388D20070C39A /* SYZAppDelegate.h */,
 				6003F59D195388D20070C39A /* SYZAppDelegate.m */,
+				A42D853E2239F94D009E5686 /* SYZNavViewController.h */,
+				A42D853F2239F94D009E5686 /* SYZNavViewController.m */,
+				A42D853B2239F938009E5686 /* SYZRootViewController.h */,
+				A42D853C2239F938009E5686 /* SYZRootViewController.m */,
+				A42D854E223A03AE009E5686 /* SYZDetailViewController.h */,
+				A42D854F223A03AE009E5686 /* SYZDetailViewController.m */,
+				A42D85442239FF9C009E5686 /* ModuleD */,
+				A42D85432239FF97009E5686 /* ModuleC */,
+				A42D85422239FF87009E5686 /* ModuleB */,
+				A42D85412239FF76009E5686 /* ModuleA */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* SYZViewController.h */,
-				6003F5A6195388D20070C39A /* SYZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -196,6 +237,52 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A42D85412239FF76009E5686 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				A42D85452239FFCB009E5686 /* SYZMediator+SYZAModule.h */,
+				A42D85462239FFCB009E5686 /* SYZMediator+SYZAModule.m */,
+				A42D8548223A0011009E5686 /* SYZAModule.h */,
+				A42D8549223A0011009E5686 /* SYZAModule.m */,
+				A42D854B223A0059009E5686 /* SYZAViewController.h */,
+				A42D854C223A0059009E5686 /* SYZAViewController.m */,
+			);
+			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		A42D85422239FF87009E5686 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				A42D8551223A06E1009E5686 /* SYZMediator+SYZBModule.h */,
+				A42D8552223A06E1009E5686 /* SYZMediator+SYZBModule.m */,
+				A42D8554223A07AA009E5686 /* SYZBModule.h */,
+				A42D8555223A07AA009E5686 /* SYZBModule.m */,
+				A42D8557223A07E6009E5686 /* SYZBViewController.h */,
+				A42D8558223A07E6009E5686 /* SYZBViewController.m */,
+			);
+			name = ModuleB;
+			sourceTree = "<group>";
+		};
+		A42D85432239FF97009E5686 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				A42D855D223A0F3A009E5686 /* SYZMediator+SYZCModule.h */,
+				A42D855E223A0F3A009E5686 /* SYZMediator+SYZCModule.m */,
+				A42D8560223A1062009E5686 /* SYZCModule.h */,
+				A42D8561223A1062009E5686 /* SYZCModule.m */,
+				A42D855A223A0F1F009E5686 /* SYZCViewController.h */,
+				A42D855B223A0F1F009E5686 /* SYZCViewController.m */,
+			);
+			name = ModuleC;
+			sourceTree = "<group>";
+		};
+		A42D85442239FF9C009E5686 /* ModuleD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModuleD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +295,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3B9EB772EC8AA818119E2308 /* [CP] Embed Pods Frameworks */,
-				273DFC760C187E719499FB68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +313,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				8F34FDB8556D6B4630D708A3 /* [CP] Embed Pods Frameworks */,
-				6E535D6C38CC20DE53C95BD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,54 +381,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		273DFC760C187E719499FB68 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B9EB772EC8AA818119E2308 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SYZMediator/SYZMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/SYZMultipleUIKit/SYZMultipleUIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SYZUIBasekit/SYZUIBasekit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYZMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYZMultipleUIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYZUIBasekit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E535D6C38CC20DE53C95BD9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Tests/Pods-SYZMediator_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYZMediator_Example/Pods-SYZMediator_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		72BA77B13F41CDCAF8568175 /* [CP] Check Pods Manifest.lock */ = {
@@ -363,24 +419,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F34FDB8556D6B4630D708A3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Tests/Pods-SYZMediator_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYZMediator_Tests/Pods-SYZMediator_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACD5D07CEFA7160FDEFEF270 /* [CP] Check Pods Manifest.lock */ = {
@@ -408,9 +446,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42D854A223A0011009E5686 /* SYZAModule.m in Sources */,
+				A42D855F223A0F3A009E5686 /* SYZMediator+SYZCModule.m in Sources */,
+				A42D8562223A1062009E5686 /* SYZCModule.m in Sources */,
+				A42D854D223A0059009E5686 /* SYZAViewController.m in Sources */,
+				A42D853D2239F938009E5686 /* SYZRootViewController.m in Sources */,
 				6003F59E195388D20070C39A /* SYZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* SYZViewController.m in Sources */,
+				A42D8550223A03AE009E5686 /* SYZDetailViewController.m in Sources */,
+				A42D8559223A07E6009E5686 /* SYZBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A42D855C223A0F1F009E5686 /* SYZCViewController.m in Sources */,
+				A42D85472239FFCB009E5686 /* SYZMediator+SYZAModule.m in Sources */,
+				A42D85402239F94D009E5686 /* SYZNavViewController.m in Sources */,
+				A42D8553223A06E1009E5686 /* SYZMediator+SYZBModule.m in Sources */,
+				A42D8556223A07AA009E5686 /* SYZBModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

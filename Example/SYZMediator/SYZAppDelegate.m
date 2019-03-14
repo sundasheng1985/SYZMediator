@@ -7,13 +7,39 @@
 //
 
 #import "SYZAppDelegate.h"
+#import "SYZNavViewController.h"
+#import "SYZRootViewController.h"
+#import <SYZMediator/SYZMediator.h>
 
-@implementation SYZAppDelegate
+@interface SYZAppDelegate ()<SYZMediatorLoginDelegate>
+
+@end
+
+@implementation SYZAppDelegate{
+    BOOL _isLogin;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window.rootViewController = [[SYZNavViewController alloc]initWithRootViewController:[SYZRootViewController new]];
+    [SYZMediator sharedMediator].mediatorLoginDelegate = self;
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark - <<SNHMediatorLoginDelegate>>
+- (void)mediatorNotificationNeedToLogin:(SYZRouterContext *)context {
+    NSLog(@"去登陆");
+    [[SYZMediator sharedMediator] openPackageWithTarget:context.target action:context.action params:context.customParams];
+}
+
+- (BOOL)mediatorCheckIsLogin {
+    if (!_isLogin) {
+        _isLogin = YES;
+        return NO;
+    } else {
+        return YES;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

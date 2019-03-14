@@ -4,19 +4,28 @@ PODS:
     - SYZUIBasekit
   - SYZMediator/source (0.1.0):
     - SYZUIBasekit
+  - SYZMultipleUIKit (0.1.1):
+    - SYZUIBasekit
   - SYZUIBasekit (0.1.5)
 
 DEPENDENCIES:
   - SYZMediator (from `../`)
+  - SYZMultipleUIKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SYZMultipleUIKit
+    - SYZUIBasekit
 
 EXTERNAL SOURCES:
   SYZMediator:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SYZMediator: 2c1ac540bcc9e4fcee11470d92dbb5be0a7a0b60
+  SYZMediator: e04844f6410f4d8213629a6dd288bc1e3703a55c
+  SYZMultipleUIKit: 325abf7f066f163a652fd29c9d5dbb93a6bd862a
   SYZUIBasekit: 6dcac91cfccc81f9377a3f8fa08de55da069e754
 
-PODFILE CHECKSUM: 1cfff4a97affb7908addfcf0f4956b0bef54e816
+PODFILE CHECKSUM: 5410ec468801d73f5cfd929e9bad3234d298437e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.1

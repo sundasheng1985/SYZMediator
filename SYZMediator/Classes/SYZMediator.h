@@ -37,6 +37,7 @@ typedef NS_ENUM(NSUInteger,SYZMediatorErrorReason) {
 
 @end
 
+/** 登录相关代理 */
 @protocol SYZMediatorLoginDelegate <NSObject>
 @required
 /** 检查是否已经登录 */

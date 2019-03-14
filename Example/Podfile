@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'SYZMediator_Example' do
   pod 'SYZMediator', :path => '../'
+  pod 'SYZMultipleUIKit'
 
   target 'SYZMediator_Tests' do
     inherit! :search_paths
