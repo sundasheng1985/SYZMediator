@@ -20,7 +20,7 @@
 /** 对参数进行添加，如果已存在，则覆盖*/
 - (void)appendValue:(id<NSCopying>)value forKey:(id<NSCopying>)key {
     NSMutableDictionary* paramsM = [SYZNoNilDictionary(self.params) syz_toMutable];
-    [paramsM syz_appendingKey:key value:value];
+    [paramsM syz_appendingKey:(id)key value:value];
     self.params = paramsM;
 }
 

@@ -1,8 +1,8 @@
 PODS:
-  - SYZMediator (0.1.0):
-    - SYZMediator/source (= 0.1.0)
+  - SYZMediator (0.1.1):
+    - SYZMediator/source (= 0.1.1)
     - SYZUIBasekit
-  - SYZMediator/source (0.1.0):
+  - SYZMediator/source (0.1.1):
     - SYZUIBasekit
   - SYZMultipleUIKit (0.1.1):
     - SYZUIBasekit
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYZMediator: e04844f6410f4d8213629a6dd288bc1e3703a55c
+  SYZMediator: 99df8543696480a98819bed8949006c6e750c0bc
   SYZMultipleUIKit: 325abf7f066f163a652fd29c9d5dbb93a6bd862a
   SYZUIBasekit: 6dcac91cfccc81f9377a3f8fa08de55da069e754
 
